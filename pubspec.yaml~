@@ -1,6 +1,7 @@
 name: print_cleaner
 description: "A simple Dart CLI tool to replace all `print` statements with `debugPrint`"
 version: 1.0.0
+author: Nour El-Deen Gamal <nourgemy54@gamil.com>
 homepage: https://github.com/Nour3lDeen/print_cleaner
 repository: https://github.com/Nour3lDeen/print_cleaner
 
