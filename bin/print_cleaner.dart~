@@ -1,0 +1,11 @@
+import 'package:print_cleaner/print_cleaner.dart';
+import 'dart:io';
+
+void main(List<String> arguments) {
+  if (arguments.isEmpty) {
+    print('❌ Usage: dart run bin/print_cleaner.dart <path_to_project>');
+    exit(1);
+  }
+
+  PrintCleaner.replacePrintWithDebugPrint(arguments[0]);
+}
